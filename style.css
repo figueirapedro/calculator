@@ -1,0 +1,110 @@
+.header{
+    font-size: 100;
+    position: relative;
+    display: table;
+    margin: auto;
+}
+
+#calculator{
+    display: table;
+    margin: auto;
+    padding-top: 50;
+}
+
+#screenBox{
+    width: 41.16vh;
+    height: 13vh;
+    background-color: #bebfb4;
+    display: flex;
+    border-bottom-width: 0;
+    border-top-width: 5px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+#screen{
+    background-color: #cfe627;
+    width: 36vh;
+    height: 8vh;
+    margin:auto;
+    border: 3px solid black;
+    text-align: right;
+    font-size: 50;
+    overflow: hidden;
+}
+
+#groupButtons{
+    display: flex;
+    width: 41.16vh;
+    flex-wrap: wrap;
+    background: #bebfb4;
+    justify-content: safe;
+    border-top-width: 1px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.button{
+    height: 10vh;
+    width: 10vh;
+    background-color: #cecfc4;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10vh;
+    }
+
+.buttonIn{
+    height: 10vh;
+    width: 10vh;
+    background-color: #7a7a7a;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10vh;
+}
+
+#btnA, #btnI{
+    height: 10vh;
+    width: 20.29vh;
+}
+
+.operator{
+    height: 10vh;
+    width: 10vh;
+    background-color:  rgb(207, 24, 24);
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10vh;
+    color: rgb(235, 229, 229);
+    font-size: xx-large;
+}
+
+.operatorIn{
+    height: 10vh;
+    width: 10vh;
+    background-color:  rgb(161, 16, 16);
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    vertical-align: middle;
+    color:  rgb(235, 229, 229);
+    line-height: 10vh;
+    font-size: xx-large;
+}
+
